@@ -28,3 +28,9 @@ kubectl create -f probe.yml -n probe
 kubectl get po -n probe
 kubectl describe po -n probe
 ```
+Call URL
+```ruby
+curl http://PodIP/health/ready
+
+curl http://PodIP/health/live
+```
