@@ -26,6 +26,7 @@ kubectl create -f probe.yml -n probe
 ```
 ```
 kubectl get po -n probe
+
 kubectl describe po -n probe
 ```
 Call URL
